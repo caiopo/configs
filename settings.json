@@ -1,0 +1,45 @@
+{
+    "editor.cursorStyle": "line-thin",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "DejaVu Sans Code",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.hotExit": "onExitAndWindowClose",
+
+    "window.zoomLevel": 1,
+
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "statusBarBackground": "#252526"
+    },
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    "git.countBadge": "off",
+
+    "update.channel": "none",
+
+    // "python.venvPath": "/home/caio/.virtualenvs",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pep8Path": "/home/caio/.local/bin/pep8",
+    "python.linting.pep8Args": ["--ignore=E701,E251"],
+    "python.linting.flake8Path": "/home/caio/.local/bin/flake8",
+    "python.formatting.autopep8Path": "/home/caio/.local/bin/autopep8",
+    "python.formatting.formatOnSave": true,
+    "python.sortImports.args": ["-o pytest"],
+
+    "launcher.terminal": {
+        "executable": "gnome-terminal"
+    },
+    "extensions.ignoreRecommendations": false
+}

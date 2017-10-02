@@ -1,0 +1,10 @@
+[user]
+	email = caiopoliveira@gmail.com
+	name = caiopo
+	signingkey = 6446623ED87292470C2D4FCF33540F14327B4EA9
+[core]
+	editor = code -w
+[commit]
+	gpgsign = true
+[alias]
+	slog = log --oneline -22
